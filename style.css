@@ -61,9 +61,25 @@ body {
 
     .title3 {
       position: absolute;
-      top: 3px;    /* udaljenost od vrha */
+      top: -2px;    /* udaljenost od vrha */
       left: 1600px;  /* udaljenost od lijevog ruba */
       font-family: Arial, sans-serif;
       font-size: 24px;
       color: #333;
     }
+
+    .gumb {
+      display: inline-block;
+      background-color: #f1f1f2;
+      color: #333;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      transition: background-color 0.3s;
+}
+
+    .gumb:hover {
+      background-color: #0056b3;
+}
